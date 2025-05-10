@@ -1,0 +1,5 @@
+sns.histplot(y_probs, bins=50, kde=True, color='purple')
+plt.title('Distribution of Predicted Probabilities')
+plt.xlabel('Predicted Probability of Severe Accident')
+plt.ylabel('Frequency')
+plt.show()
